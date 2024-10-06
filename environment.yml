@@ -1,0 +1,17 @@
+name: seqprop # TODO: Change!
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.12
+  - ipython
+  - pip
+
+  - conda-forge::open-fonts
+  - bioconda::logomaker # for PWM motif visualization
+
+
+  - pip:
+    - -e .

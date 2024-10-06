@@ -1,0 +1,4 @@
+include LICENSE
+include HISTORY.md
+
+recursive-include */assets/*
